@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Princesa Morbucks</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Princesa Morbucks</h1>
+        <img id="imgPersonajes" src="img/princesa.jpg" alt=""><br>
+        <p>Princesa Masplata (Princess Morbucks en inglés y Princesa Masbilletes en castellano) es una enemiga de las Supernenas/Chicas Superpoderosas. Ella quiso ser una Supernena/Chica Superpoderosa porque en el episodio "La Nueva Integrante" vio a Bombón/Pétalo, Burbuja y Bellota/Cactus utilizando sus poderes y Princesa se obsesionó con ser una ella misma también.
+            Princesa es malvada, consentida, mezquina, egoísta, malcriada, terca, celosa, codiciosa, chillona, grosera, antipática, de mal genio, manipuladora, dictadora y cruel, especialmente para ser solo una niña pequeña. Está sujeta a berrinches violentos cuando quiere algo.
+        </p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

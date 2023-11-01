@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Mojo jojo</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Mojo jojo</h1>
+        <img id="imgPersonajes" src="img/mojo.jpg" alt=""><br>
+        <p>Mojo Jojo es un supervillano de la serie animada The Powerpuff Girls de Cartoon Network. 
+        Es el principal antagonista de la serie y el principal archienemigo del Profesor Utonio y Las Supernenas/Las Chicas Superpoderosas. 
+        También es el villano principal en The Powerpuff Girls Movie.
+        Constantemente conspira para apoderarse del mundo y/o destruir a Las Supernenas/Las Chicas Superpoderosas.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

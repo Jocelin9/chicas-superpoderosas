@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F86F90">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Personajes</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Personajes</h1>
+        <select for="" id="Personajes">
+            <option value="Seleccione un personaje">Seleccione un personaje</option>
+            <option value="bellota">Bellota</option>
+            <option value="bombon">Bombón</option>
+            <option value="burbuja">Burbuja</option>
+            <option value="mojo">Mojo Jojo</option>
+            <option value="belo">Señorita Belo</option>
+            <option value="profesor">Profesor Utonio</option>
+            <option value="peludito">Peludito</option>
+            <option value="keane">Señorita Keane</option>
+            <option value="alcalde">El Alcalde</option>
+            <option value="el">Él</option>
+            <option value="princesa">Princesa Morbucks</option>
+        </select><br>
+        <div id="nombre">Nombre</div><br>
+        <select for="" id="Versiones">
+            <option value="Seleccione alguna">Seleccione alguna</option>
+        </select><br>
+        <img id="imgPersonajes2" src="img/principal2.png" alt="">
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+    <script src="pouchdb.min.js"></script>
+    <script src="js/app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

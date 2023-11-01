@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Profesor Utonio</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Profesor Utonio</h1>
+        <img id="imgPersonajes" src="img/profesor.jpg" alt=""><br>
+        <p>El Profesor Utonio es el científico responsable de crear a las Supernenas/Chicas Superpoderosas y 
+        es el protagonista masculino de la franquicia. Imparte clases de física cuántica y fusión micro-nuclear
+        en el Centro de Investigación de Saltadilla. El estaba tratando de crear a la "Niñita perfecta" con tres
+         ingredientes muy importantes: azúcar, flores y muchos colores. Sin embargo, un accidente por culpa de Mojo Jojo 
+         (antes de desarrollar inteligencia superior y volverse malvado) hizo que el Profesor tropezara y rompiera la botella de la Sustancia X,
+          derramando la sobre su "Fórmula" y con los poderes de la Sustancia X más los otros ingredientes hicieron surgir a las Supernenas/Chicas Superpoderosas.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

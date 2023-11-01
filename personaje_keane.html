@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Señorita Keane</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Señorita Keane</h1>
+        <img id="imgPersonajes" src="img/keane.png" alt=""><br>
+        <p>Ella es la maestra de Bombón,Bellota y Burbuja además de otros niños en el Colegio de Niños de Saltadilla 
+            La Señorita Keane es una persona dosil y amable.Y siempre da permiso para que las chicas salgan cuando se "enferman" misteriosamente.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

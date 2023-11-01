@@ -1,0 +1,108 @@
+body {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     background-color: #958bee;
+     min-height: 90vh;
+ }
+ .contenedor{
+    width: 350px;
+    text-align: center;
+    /* align-items: flex ;
+    align-content: center; */
+    background-color: #F86F90;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    font-family:cursive;
+    font-size:  20px;
+    text-shadow: 2px 2px 4px #ff0095;
+    border-style:outset double ;
+    transition: all 1.2s;
+ }
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    cursor: pointer;
+    transition: all 1.2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.personajes{
+    width: 350px;
+    text-align: center;
+    background-color: #F86F90;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family:cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #ff0095;
+    border-style:outset double ;
+    transition: all 1.2s;
+}
+#imgPersonajes{
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    transition: all 1.2s;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#imgPersonajes2{
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    transition: all 1.2s;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+select { 
+    font-size: 18px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #88c9e7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+option {
+    background-color: #F8F39B; 
+    color: #958bee; 
+}
+select:hover {
+    background-color: #e76e6e; 
+}
+#nombre{
+    font-family:cursive;
+    font-size:  24px;
+}
+#version{
+    font-family:cursive;
+    font-size:  20px;
+}
+button {
+    padding: 2px 2px 2px 2px;
+    font-family:cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ec1693;
+    color: white;
+    cursor: pointer;
+    border-style: ridge outset;
+    width: 99px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.p{
+    size: 18px;
+}
+  

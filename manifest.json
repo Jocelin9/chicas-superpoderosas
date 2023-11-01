@@ -1,0 +1,53 @@
+{
+    "short_name": "Chicas Superpoderosas",
+    "name": "App de Las Chicas Superpoderosas",
+    "start_url": "index.html",
+    "background_color": "#ee8b8b",
+    "theme_color": "#ee8b8b",
+    "display": "standalone",   
+    "orientation": "portrait",    
+    "icons": [
+        {
+            "src": "/img/corazon (1).png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/img/corazon (2).png",
+            "type": "image/png",
+            "sizes": "256x256"
+
+        },
+        {
+            "src": "/img/corazon (3).png",
+            "type": "image/png",
+            "sizes": "128x128"
+
+        },
+        {
+            "src": "/img/corazon (4).png",
+            "type": "image/png",
+            "sizes": "64x64"
+
+        },
+        {
+            "src": "/img/corazon (5).png",
+            "type": "image/png",
+            "sizes": "32x32"
+
+        },
+        {
+            "src": "/img/corazon (6).png",
+            "type": "image/png",
+            "sizes": "24x24"
+
+        },
+        {
+            "src": "/img/corazon (7).png",
+            "type": "image/png",
+            "sizes": "16x16"
+
+        }
+    ]
+
+}

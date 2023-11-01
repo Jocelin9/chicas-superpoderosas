@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Bombón</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Bombón</h1>
+        <img id="imgPersonajes" src="img/bombon.jpg" alt=""><br>
+        <p>Bombón/Pétalo (Blossom en inglés) es la protagonista principal de la serie animada The Powerpuff Girls 
+        (Las Supernenas/Las Chicas Superpoderosas), junto con sus hermanas Burbuja y Bellota/Cactus.
+         Ella es la brillante pero algo egocéntrica líder del trío de superhéroinas.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

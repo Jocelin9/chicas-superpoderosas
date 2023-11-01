@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>El Alcalde</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>El Alcalde</h1>
+        <img id="imgPersonajes" src="img/alcalde.jpg" alt=""><br>
+        <p>El alcalde de Saltadilla, también conocido como alcalde, es un personaje principal cuyo papel principal en el 
+            programa es llamar a las Supernenas/Chicas Superpoderosas si los problemas causan estragos en la ciudad, pero 
+            este no es siempre el caso, ya que a veces tiene un mal hábito de pedirles que lo ayuden con algún problema 
+            trivial, como abrir un frasco normal de pepinillos. Es conocido por ser uno de los personajes mas torpes y 
+            descuidados de la serie y constantemente necesita ayuda de su secretaria, la Señorita Bellum.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

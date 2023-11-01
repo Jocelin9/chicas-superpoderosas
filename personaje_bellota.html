@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Bellota</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Bellota</h1>
+        <img id="imgPersonajes" src="img/bellota.jpg" alt=""><br>
+        <p>Bellota/Cactus (Buttercup en inglés) es una de las protagonistas de The Powerpuff Girls 
+        (Las Supernenas/Las Chicas Superpoderosas), junto con sus hermanas Bombón/Pétalo y Burbuja. 
+        Ella es la luchadora más dura del grupo y la más intrépida y testaruda del trío de superhéroes.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>

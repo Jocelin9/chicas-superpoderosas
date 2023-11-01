@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ee8b8b">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Señorita Belo</title>
+</head>
+<body>
+    <div class="personajes">
+        <h1>Señorita Belo</h1>
+        <img id="imgPersonajes" src="img/belo.jpg" alt=""><br>
+        <p>La Señorita Bellum (nombrada como "Señorita Bello" en algunos episodios) es la secretaria del Alcalde de Saltadilla.
+        Aunque el rostro de Sarah Bellum no es visible durante la mayoría de la serie, lo que destaca en ella es su inteligencia, 
+        su habilidad para manejar situaciones delicadas y el trabajo que hace por el Alcalde.</p>
+        <button id="btnRegreso">Regresar</button><br>
+    </div>
+<script src="app.js"></script>
+<script>
+    var botonRegreso = document.getElementById('btnRegreso');
+
+    botonRegreso.addEventListener('click', function() {
+        window.history.back(); 
+    });
+</script>
+</body>
+</html>
